@@ -4,7 +4,7 @@
 #-displays good luck for the 8th loop iteration
 #-displays Best School for the other iterations
 i=0
-while (($i<10))
+while ((i<10))
 do
 	if [ $i = 3 ]; then
 		echo "bad luck"
